@@ -40,7 +40,7 @@ public class HighScore {
     }
 
     /**
-     * Set the element for the list which containsscores.
+     * Set the element for the list which contains scores.
      * @param scores {@link ArrayList} which has {@link Score} elements.
      */
     @XmlElement
