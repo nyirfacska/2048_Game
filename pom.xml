@@ -16,6 +16,14 @@
         </developer>
     </developers>
 
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
     <scm>
         <url>https://github.com/nyirfacska/2048_Game</url>
         <connection>scm:git:git://github.com/nyirfacska/2048_Game.git</connection>
