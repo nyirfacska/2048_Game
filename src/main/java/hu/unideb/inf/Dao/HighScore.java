@@ -1,5 +1,6 @@
 package hu.unideb.inf.Dao;
 
+import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -39,8 +40,16 @@ public class HighScore {
     }
 
     /**
+     * Set the element for the list which containsscores.
+     * @param scores {@link ArrayList} which has {@link Score} elements.
+     */
+    @XmlElement
+    public void setHighscore(ArrayList<Score> scores){
+        this.highscore = scores;
+    }
+
+    /**
      * Add a new {@link Score} to the highscore list.
-     *
      * @param score Score.
      */
 
